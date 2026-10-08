@@ -1,0 +1,10 @@
+{
+  "name": "approvals",
+  "version": "0.1.0",
+  "description": "A pane on the right listing the decisions Claude needs from you, each with its recommendation and Approve / Chat buttons",
+  "author": { "name": "David Broadhurst", "url": "https://github.com/dbroadhurst" },
+  "homepage": "https://github.com/dbroadhurst/claude-mod-approvals",
+  "repository": "https://github.com/dbroadhurst/claude-mod-approvals",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

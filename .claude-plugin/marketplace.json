@@ -1,0 +1,13 @@
+{
+  "name": "claude-mod-approvals",
+  "description": "An Approvals pane for Claude Code: the decisions Claude needs from you, with Approve and Chat buttons",
+  "owner": {
+    "name": "David Broadhurst"
+  },
+  "plugins": [
+    {
+      "name": "approvals",
+      "source": "./"
+    }
+  ]
+}
