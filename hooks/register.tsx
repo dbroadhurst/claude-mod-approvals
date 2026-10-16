@@ -17,6 +17,7 @@ const GUIDE = [
   '- Whenever you put a decision to the person with a recommendation, also call `mcp__approvals__ask` with a short id (the design-doc id if there is one), a title of a few words, and the recommendation condensed to one line (about 100 characters). Put the reasoning in `why` and the other options in `alternatives`, a line each.',
   '- When the person answers in chat (approves, picks another option, or drops it), call `mcp__approvals__resolve` with the id and the outcome in a few words.',
   '- A prompt starting "Approved [id]" came from the pane\'s Approve button: act on the recommendation as given. "Re [id]" is the person discussing it.',
+  '- When you point the person to a decision, give its number on the pane (its position in `mcp__approvals__list`, checked just before) and its id, e.g. "approval #2 `db-choice`".',
 ].join('\n')
 
 const pending = (b: Board) => b.items.filter(i => i.status === 'pending')
